@@ -10,3 +10,14 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+- If we have two graphs A and B that have the same number of nodes and are completely connected we can create a bijection.
+- We can do this by pairing each node from A to a node in B.
+- Every node in the graphs are completely connected so the way they are connection does not matter.
+- This allows us to see that no matter what the permutation of the mapping is each node in A will have a connection to its own node in B
+- All nodes from B can be reached from A.
+- This give us a bijection and tells us two graphs with the same number of nodes that are completely connected must be isomorphic. 
+
+// For this assignment I ended up looking at these repositories:
+// isomorphism-nodes-connectivity-IshitaPatel18
+// isomorphism-nodes-connectivity-AndonM
