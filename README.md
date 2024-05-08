@@ -14,6 +14,8 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 - If we have two graphs A and B that have the same number of nodes and are completely connected we can create a bijection.
 - We can do this by pairing each node from A to a node in B.
 - Every node in the graphs are completely connected so the way they are connection does not matter.
+- Since both graphs are completely connected, every node in A is connected to every other node. This is also true for graph B
+  this means that any bijection between the nodes of A and B will preserve this connectivity property.
 - This allows us to see that no matter what the permutation of the mapping is each node in A will have a connection to its own node in B
 - All nodes from B can be reached from A.
 - This give us a bijection and tells us two graphs with the same number of nodes that are completely connected must be isomorphic. 
